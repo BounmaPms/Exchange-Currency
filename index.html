@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>แลกเปลี่ยนสกุลเงิน</title>
+</head>
+<body>
+    <div class="container">
+        <h1>แลกเปลี่ยนสกุลเงิน</h1>
+        <div class="box">
+            <label for="from" class="label">From
+                <select name="option" id="from">
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="THB">THB - Thai Bath</option>
+                    <option value="LAK">LAK - Lao Kip</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                    <option value="VND">VND - Vietnamese Dong</option>
+                </select>
+            </label>
+            <input class="label" type="text" id="input">
+
+            <label for="to" class="label">To
+                <select name="option" id="to">
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="THB">THB - Thai Bath</option>
+                    <option value="LAK">LAK - Lao Kip</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                    <option value="VND">VND - Vietnamese Dong</option>
+                </select>
+            </label>
+            <input class="label" type="text" id="output" disabled>
+            <button onclick="Convert()">Converter</button>
+        </div>
+        <p>อัตราแลกเปลี่ยนกลางของตลาด ณ วันที่ 23/1/2024</p>
+        <p>อ้างอิงอัตราแลกเปลี่ยนจากเว็บ <span><a href="https://wise.com/th/currency-converter/">https://wise.com/th/currency-converter/</a></span></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

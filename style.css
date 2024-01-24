@@ -1,0 +1,49 @@
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: forestgreen;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(67, 214, 67);
+    border-radius: 15px;
+    width: 600px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.label{
+    float: left;
+    margin: 0px 75px 0px 75px;
+    width: 450px;
+}
+select,input{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+button{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #e62e00;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+}
